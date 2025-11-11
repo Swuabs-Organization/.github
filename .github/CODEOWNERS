@@ -1,0 +1,11 @@
+# Code owners for .github repository (organization configuration)
+# These owners will be requested for review when someone opens a pull request.
+
+# Default owners for everything in the repo
+* @Swuabs-Organization/founder @Swuabs-Organization/admin
+
+# Organization profile
+profile/* @Swuabs-Organization/founder
+
+# Templates and configuration
+.github/* @Swuabs-Organization/admin
