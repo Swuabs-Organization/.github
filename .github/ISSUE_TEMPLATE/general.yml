@@ -1,0 +1,27 @@
+name: General Issue
+description: Create a general issue for questions, discussions, or other topics
+title: "[General]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for creating an issue! Please provide as much detail as possible.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of what you want to discuss or ask about.
+      placeholder: Tell us what's on your mind...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, or information here.
+      placeholder: Any additional information...
+    validations:
+      required: false
